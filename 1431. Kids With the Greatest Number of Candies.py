@@ -5,5 +5,8 @@ class Solution:
         highCandy = max(candies)
         arr = []
         for i in candies:
-            arr.append(i + extraCandies >= highCandy)
+            if(i + extraCandies >= highCandy):
+                arr.append(True)
+            else:
+                arr.append(False)
         return arr
