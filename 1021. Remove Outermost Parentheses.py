@@ -9,5 +9,6 @@ class Solution:
             if c == ')' and opened > 1: 
                 res.append(c)
             opened += 1 if c == '(' else -1
+            
         
         return "".join(res)
