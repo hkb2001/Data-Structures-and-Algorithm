@@ -10,3 +10,4 @@ class Solution:
             x //= 10  # Remove last digit
         
         return x == reversed_half or x == reversed_half // 10  # Compare halves
+
